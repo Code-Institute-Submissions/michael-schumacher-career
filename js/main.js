@@ -40,22 +40,21 @@ queue()
                   .transitionDuration(1500); // set time it takes to draw after each reload   
                   
                   
-       var pts_dim = ndx.dimension(dc.pluck('Team'));
-        var total_poles_per_team = pts_dim.group().reduceSum(dc.pluck('Poles'));
+       
+        var total_poles_per_team = team.group().reduceSum(dc.pluck('Poles'));
         
         
 
-            dc.pieChart("#total_poles_per_team")
-              .height(300) 
-              .width(600)
-              .slicesCap(7)   
-              .radius(100) 
-              .innerRadius(50)             
-              .dimension(pts_dim)
+            dc.pieChart("#total_poles_per_team") // draw   piechart in div id points_per_year_bar
+              .height(300) //set height
+              .width(600) // set width  
+              .slicesCap(7)   // number of slices in pie
+              .radius(100)  // radius of pie
+              .innerRadius(50)   // inner radius of pie          
+              .dimension(team) // assign var pts_dim to dimension
               .group(total_poles_per_team)
-              .transitionDuration(1500)
-              // display legends
-              .legend(dc.legend().x(5).y(90).itemHeight(10).gap(5));
+              .transitionDuration(1500) // set time it takes to draw after each reload   
+              .legend(dc.legend().x(5).y(90).itemHeight(10).gap(5));  // display legends
             
             dc.renderAll();
     }
