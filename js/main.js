@@ -38,6 +38,24 @@ queue()
                   .dimension(team) // assign var team to dimension
                   .group(total_podiums_per_team) // assign variable total_points_per_year to group
                   .transitionDuration(1500); // set time it takes to draw after each reload   
+                  
+                  
+       var pts_dim = ndx.dimension(dc.pluck('Team'));
+        var total_poles_per_team = pts_dim.group().reduceSum(dc.pluck('Poles'));
+        
+        
+
+            dc.pieChart("#total_poles_per_team")
+              .height(300) 
+              .width(600)
+              .slicesCap(7)   
+              .radius(100) 
+              .innerRadius(50)             
+              .dimension(pts_dim)
+              .group(total_poles_per_team)
+              .transitionDuration(1500)
+              // display legends
+              .legend(dc.legend().x(5).y(90).itemHeight(10).gap(5));
             
             dc.renderAll();
     }
