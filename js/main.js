@@ -33,18 +33,18 @@ queue()
             }
         });
 
-        var stackedChart = dc.barChart("#stacked-chart");
-        stackedChart
+        dc.barChart("#stacked-chart")
             .width(550)
             .height(330)
+            .margins({top: 20, right: 20, bottom: 40, left: 40})
             .dimension(name_dim)
             .group(fast, "fast laps")
             .stack(wins, "Wins")
             .stack(poles, "pole position")
             .x(d3.scale.ordinal())
             .xUnits(dc.units.ordinal)
-            .legend(dc.legend().x(600).y(0).itemHeight(15).gap(5))
-        stackedChart.margins().right = 100;
+            .legend(dc.legend().x(450).y(0).itemHeight(15).gap(5));
+        
         
         var pts_dim = ndx.dimension(dc.pluck('Season')); //create variable for x axis(Season)
         var total_points_per_year = pts_dim.group().reduceSum(dc.pluck('Points')); // create variable for group y axis (Points)
