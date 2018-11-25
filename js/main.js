@@ -9,6 +9,8 @@ queue()
 
         var ndx = crossfilter(careerStats); // put json file through crossfilter
         
+        
+        
         var name_dim = ndx.dimension(dc.pluck('Season'));
         var fast = name_dim.group().reduceSum(function (d) {
             if (d.Team === 'Scuderia Ferrari Marlboro') {
@@ -44,6 +46,19 @@ queue()
             .x(d3.scale.ordinal())
             .xUnits(dc.units.ordinal)
             .legend(dc.legend().x(450).y(0).itemHeight(15).gap(5));
+            
+            
+        var total_records = ndx.dimension(dc.pluck('Record')); //create variable for x axis(Team)
+        var record = total_records.group().reduceSum(dc.pluck('Current_Record')); // create variable for group y axis (Podiums)
+            
+            
+    
+                dc.rowChart("#records")  // draw  barchart in div id points_per_year_bar
+                  .height(600) //set height
+                  .width(1000) // set width                 
+                  .dimension(total_records) // assign var team to dimension
+                  .group(record) // assign variable total_points_per_year to group
+                  .transitionDuration(1500); // set time it takes to draw after each reload 
         
         
         var pts_dim = ndx.dimension(dc.pluck('Season')); //create variable for x axis(Season)
@@ -74,7 +89,9 @@ queue()
                   .width(550) // set width                 
                   .dimension(team) // assign var team to dimension
                   .group(total_podiums_per_team) // assign variable total_points_per_year to group
-                  .transitionDuration(1500); // set time it takes to draw after each reload   
+                  .transitionDuration(1500); // set time it takes to draw after each reload 
+                  
+        
                   
                   
        
