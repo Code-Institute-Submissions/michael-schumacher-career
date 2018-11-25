@@ -1,201 +1,298 @@
 [
-	{
-	  "Season": 1992,
-	  "Team": "Camel_Benetton_Ford",
-	  "Races": 16,
-	  "Wins": 1,
-	  "Poles": 0,
-	  "f_laps": 2,
-	  "Podiums": 8,
-	  "Points": 53,
-	  "Position": "3rd"
-	},
-	{
-	  "Season": 1993,
-	  "Team": "Camel_Benetton_Ford",
-	  "Races": 16,
-	  "Wins": 1,
-	  "Poles": 0,
-	  "f_laps": 5,
-	  "Podiums": 9,
-	  "Points": 52,
-	  "Position": "4th"
-	},
-	{
-	  "Season": 1994,
-	  "Team": "Mild Seven Benetton Ford",
-	  "Races": 14,
-	  "Wins": 8,
-	  "Poles": 6,
-	  "f_laps": 8,
-	  "Podiums": 10,
-	  "Points": 92,
-	  "Position": "1st"
-	},
-	{
-	  "Season": 1995,
-	  "Team": "Mild Seven Benetton Renault",
-	  "Races": 17,
-	  "Wins": 9,
-	  "Poles": 4,
-	  "f_laps": 8,
-	  "Podiums": 11,
-	  "Points": 102,
-	  "Position": "1st"
-	},
-	{
-	  "Season": 1996,
-	  "Team": "Scuderia Ferrari S.p.A.",
-	  "Races": 16,
-	  "Wins": 3,
-	  "Poles": 4,
-	  "f_laps": 2,
-	  "Podiums": 8,
-	  "Points": 59,
-	  "Position": "3rd"
-	},
-	{
-	  "Season": 1997,
-	  "Team": "Scuderia Ferrari Marlboro",
-	  "Races": 17,
-	  "Wins": 5,
-	  "Poles": 3,
-	  "f_laps": 3,
-	  "Podiums": 8,
-	  "Points": 78,
-	  "Position": "DSQ"
-	},
-	{
-	  "Season": 1998,
-	  "Team": "Scuderia Ferrari Marlboro",
-	  "Races": 16,
-	  "Wins": 6,
-	  "Poles": 3,
-	  "f_laps": 6,
-	  "Podiums": 11,
-	  "Points": 86,
-	  "Position": "2nd"
-	},
-	{
-	  "Season": 1999,
-	  "Team": "Scuderia Ferrari Marlboro",
-	  "Races": 10,
-	  "Wins": 2,
-	  "Poles": 3,
-	  "f_laps": 5,
-	  "Podiums": 6,
-	  "Points": 44,
-	  "Position": "5th"
-	},
-	{
-	  "Season": 2000,
-	  "Team": "Scuderia Ferrari Marlboro",
-	  "Races": 17,
-	  "Wins": 9,
-	  "Poles": 9,
-	  "f_laps": 2,
-	  "Podiums": 12,
-	  "Points": 108,
-	  "Position": "1st"
-	},
-	{
-	  "Season": 2001,
-	  "Team": "Scuderia Ferrari Marlboro",
-	  "Races": 17,
-	  "Wins": 9,
-	  "Poles": 11,
-	  "f_laps": 3,
-	  "Podiums": 14,
-	  "Points": 123,
-	  "Position": "1st"
-	},
-	{
-	  "Season": 2002,
-	  "Team": "Scuderia Ferrari Marlboro",
-	  "Races": 17,
-	  "Wins": 11,
-	  "Poles": 7,
-	  "f_laps": 7,
-	  "Podiums": 17,
-	  "Points": 144,
-	  "Position": "1st"
-	},
-	{
-	  "Season": 2003,
-	  "Team": "Scuderia Ferrari Marlboro",
-	  "Races": 16,
-	  "Wins": 6,
-	  "Poles": 5,
-	  "f_laps": 5,
-	  "Podiums": 8,
-	  "Points": 93,
-	  "Position": "1st"
-	},
-	{
-	  "Season": 2004,
-	  "Team": "Scuderia Ferrari Marlboro",
-	  "Races": 18,
-	  "Wins": 13,
-	  "Poles": 8,
-	  "f_laps": 10,
-	  "Podiums": 15,
-	  "Points": 148,
-	  "Position": "1st"
-	},
-	{
-	  "Season": 2005,
-	  "Team": "Scuderia Ferrari Marlboro",
-	  "Races": 19,
-	  "Wins": 1,
-	  "Poles": 1,
-	  "f_laps": 3,
-	  "Podiums": 5,
-	  "Points": 62,
-	  "Position": "3rd"
-	},
-	{
-	  "Season": 2006,
-	  "Team": "Scuderia Ferrari Marlboro",
-	  "Races": 18,
-	  "Wins": 7,
-	  "Poles": 4,
-	  "f_laps": 7,
-	  "Podiums": 12,
-	  "Points": 121,
-	  "Position": "2nd"
-	},
-	{
-	  "Season": 2010,
-	  "Team": "Mercedes GP Petronas F1 Team",
-	  "Races": 19,
-	  "Wins": 0,
-	  "Poles": 0,
-	  "f_laps": 0,
-	  "Podiums": 0,
-	  "Points": 72,
-	  "Position": "9th"
-	},
-	{
-	  "Season": 2011,
-	  "Team": "Mercedes GP Petronas F1 Team",
-	  "Races": 19,
-	  "Wins": 0,
-	  "Poles": 0,
-	  "f_laps": 0,
-	  "Podiums": 0,
-	  "Points": 76,
-	  "Position": "8th"
-	},
-	{
-	  "Season": 2012,
-	  "Team": "Mercedes AMG Petronas F1 Team",
-	  "Races": 20,
-	  "Wins": 0,
-	  "Poles": 0,
-	  "f_laps": 1,
-	  "Podiums": 1,
-	  "Points": 49,
-	  "Position": "13th"
-	}
-	
-  ]
+    
+    
+    {
+    	"Season": 1992,
+    	"Team": "Camel_Benetton_Ford",
+    	"Races": 16,
+    	"Wins": 1,
+    	"Poles": 0,
+    	"F_Laps": 2,
+    	"Podiums": 8,
+    	"Points": 53,
+    	"Position": "3rd"
+    	
+    },
+    {
+    	"Season": 1993,
+    	"Team": "Camel_ Benetton_Ford",
+    	"Races": 16,
+    	"Wins": 1,
+    	"Poles": 0,
+    	"F_Laps": 5,
+    	"Podiums": 9,
+        "Points": 52,
+        "Position": "4th"
+    	
+    },
+        {
+          "Season": 1994,
+          "Team": "Mild_Seven_Benetton_Ford",
+          "Races": 14,
+          "Wins": 8,
+          "Poles": 6,
+          "F_Laps": 8,
+          "Podiums": 10,
+          "Points": 92,
+          "Position": "1st"
+        },
+        {
+          "Season": 1995,
+          "Team": "Mild Seven Benetton Renault",
+          "Races": 17,
+          "Wins": 9,
+          "Poles": 4,
+          "F_Laps": 8,
+          "Podiums": 11,
+          "Points": 102,
+          "Position": "1st"
+        },
+        {
+          "Season": 1996,
+          "Team": "Scuderia Ferrari S.p.A.",
+          "Races": 16,
+          "Wins": 3,
+          "Poles": 4,
+          "F_Laps": 2,
+          "Podiums": 8,
+          "Points": 59,
+          "Position": "3rd"
+        },
+        {
+          "Season": 1997,
+          "Team": "Scuderia Ferrari Marlboro",
+          "Races": 17,
+          "Wins": 5,
+          "Poles": 3,
+          "F_Laps": 3,
+          "Podiums": 8,
+          "Points": 78,
+          "Position": "DSQ"
+        },
+        {
+          "Season": 1998,
+          "Team": "Scuderia Ferrari Marlboro",
+          "Races": 16,
+          "Wins": 6,
+          "Poles": 3,
+          "F_Laps": 6,
+          "Podiums": 11,
+          "Points": 86,
+          "Position": "2nd"
+        },
+        {
+          "Season": 1999,
+          "Team": "Scuderia Ferrari Marlboro",
+          "Races": 10,
+          "Wins": 2,
+          "Poles": 3,
+          "F_Laps": 5,
+          "Podiums": 6,
+          "Points": 44,
+          "Position": "5th"
+        },
+        {
+          "Season": 2000,
+          "Team": "Scuderia Ferrari Marlboro",
+          "Races": 17,
+          "Wins": 9,
+          "Poles": 9,
+          "F_Laps": 2,
+          "Podiums": 12,
+          "Points": 108,
+          "Position": "1st"
+        },
+        {
+          "Season": 2001,
+          "Team": "Scuderia Ferrari Marlboro",
+          "Races": 17,
+          "Wins": 9,
+          "Poles": 11,
+          "F_Laps": 3,
+          "Podiums": 14,
+          "Points": 123,
+          "Position": "1st"
+        },
+        {
+          "Season": 2002,
+          "Team": "Scuderia Ferrari Marlboro",
+          "Races": 17,
+          "Wins": 11,
+          "Poles": 7,
+          "F_Laps": 7,
+          "Podiums": 17,
+          "Points": 144,
+          "Position": "1st"
+        },
+        {
+          "Season": 2003,
+          "Team": "Scuderia Ferrari Marlboro",
+          "Races": 16,
+          "Wins": 6,
+          "Poles": 5,
+          "F_Laps": 5,
+          "Podiums": 8,
+          "Points": 93,
+          "Position": "1st"
+        },
+        {
+          "Season": 2004,
+          "Team": "Scuderia Ferrari Marlboro",
+          "Races": 18,
+          "Wins": 13,
+          "Poles": 8,
+          "F_Laps": 10,
+          "Podiums": 15,
+          "Points": 148,
+          "Position": "1st"
+        },
+        {
+          "Season": 2005,
+          "Team": "Scuderia Ferrari Marlboro",
+          "Races": 19,
+          "Wins": 1,
+          "Poles": 1,
+          "F_Laps": 3,
+          "Podiums": 5,
+          "Points": 62,
+          "Position": "3rd"
+        },
+        {
+          "Season": 2006,
+          "Team": "Scuderia Ferrari Marlboro",
+          "Races": 18,
+          "Wins": 7,
+          "Poles": 4,
+          "F_Laps": 7,
+          "Podiums": 12,
+          "Points": 121,
+          "Position": "2nd"
+        },
+        {
+          "Season": 2010,
+          "Team": "Mercedes GP Petronas F1 Team",
+          "Races": 19,
+          "Wins": 0,
+          "Poles": 0,
+          "F_Laps": 0,
+          "Podiums": 0,
+          "Points": 72,
+          "Position": "9th"
+        },
+        {
+          "Season": 2011,
+          "Team": "Mercedes GP Petronas F1 Team",
+          "Races": 19,
+          "Wins": 0,
+          "Poles": 0,
+          "F_Laps": 0,
+          "Podiums": 0,
+          "Points": 76,
+          "Position": "8th"
+        },
+        {
+          "Season": 2012,
+          "Team": "Mercedes AMG Petronas F1 Team",
+          "Races": 20,
+          "Wins": 0,
+          "Poles": 0,
+          "F_Laps": 1,
+          "Podiums": 1,
+          "Points": 49,
+          "Position": "13th"
+        },
+    
+        
+            {
+                "Record": "Most Championship titles",
+                "Current_Record": 7
+            },
+            {
+                "Record": "Most consecutive titles",
+                "Current_Record": 5
+            },
+            {
+                "Record": "Most races left in the season when becoming World Champion",
+                "Current_Record": 6
+            },
+            {
+                "Record": "Most career wins",
+                "Current_Record": 91
+            },
+            {
+                "Record": "Most wins in a season",
+                "Current_Record": 13
+            },
+            {
+                "Record": "Most wins with the same team",
+                "Current_Record": 72
+            },
+            {
+                "Record": "Most pole positions at the same Grand Prix",
+                "Current_Record": 8
+            },
+            {
+                "Record": "Most wins at the same Grand Prix",
+                "Current_Record": 8
+            },
+            {
+                "Record": "Most seasons with a win",
+                "Current_Record": 15
+            },
+            {
+                "Record": "Most consecutive seasons with a win",
+                "Current_Record": 15
+            },
+            {
+                "Record": "Most second places",
+                "Current_Record": 43
+            },
+            {
+                "Record": "Most consecutive top two finishes",
+                "Current_Record": 15
+            },
+            {
+                "Record": "Most podium finishes",
+                "Current_Record": 155
+            },
+            {
+                "Record": "Most podium finishes in a season",
+                "Current_Record": 17
+            },
+            {
+                "Record": "Most consecutive podium finishes",
+                "Current_Record": 19
+            },
+            {
+                "Record": "Most races finished in the points",
+                "Current_Record": 221
+            },
+            {
+                "Record": "Most races led",
+                "Current_Record": 142
+            },
+            {
+                "Record": "Most fastest laps",
+                "Current_Record": 77
+            },
+            {
+                "Record": "Most fastest laps in a season",
+                "Current_Record": 10
+            },
+            {
+                "Record": "Most hat-tricks (pole, win and fastest lap)",
+                "Current_Record": 22
+            },
+            {
+                "Record": "Most hat-tricks in a season",
+                "Current_Record": 5
+            },
+            {
+                "Record": "Most races with a single constructor",
+                "Current_Record": 181
+            }
+        
+    
+      
+]
+
