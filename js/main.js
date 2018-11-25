@@ -35,7 +35,7 @@ queue()
 
         dc.barChart("#stacked-chart")
             .width(550)
-            .height(330)
+            .height(300)
             .margins({top: 20, right: 20, bottom: 40, left: 40})
             .dimension(name_dim)
             .group(fast, "fast laps")
