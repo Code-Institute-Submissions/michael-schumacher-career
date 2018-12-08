@@ -10,7 +10,7 @@ queue()
         var ndx = crossfilter(careerStats); // put json file through crossfilter
         
         
-        
+            // conditional if else statement to display all fast laps at ferrari
         var name_dim = ndx.dimension(dc.pluck('Season'));
         var fast = name_dim.group().reduceSum(function (d) {
             if (d.Team === 'Scuderia Ferrari Marlboro') {
@@ -19,6 +19,7 @@ queue()
                 return 0;
             }
         });
+            // conditional if else statement to display all wins at ferrari
         var wins = name_dim.group().reduceSum(function (d) {
             if (d.Team === 'Scuderia Ferrari Marlboro') {
                 return +d.Wins;
@@ -27,6 +28,7 @@ queue()
             }
         });
 
+            // conditional if else statement to display all pole positions at ferrari
         var poles = name_dim.group().reduceSum(function (d) {
             if (d.Team === 'Scuderia Ferrari Marlboro') {
                 return +d.Poles;
@@ -35,63 +37,139 @@ queue()
             }
         });
 
-        dc.barChart("#stacked-chart")
-            .width(550)
-            .height(300)
+        dc.barChart("#ferrari")
+            .width(950)
+            .height(500)
             .margins({top: 20, right: 20, bottom: 40, left: 40})
             .dimension(name_dim)
             .group(fast, "fast laps")
+            .renderHorizontalGridLines(true)
             .stack(wins, "Wins")
             .stack(poles, "pole position")
             .x(d3.scale.ordinal())
             .xUnits(dc.units.ordinal)
-            .legend(dc.legend().x(450).y(0).itemHeight(15).gap(5));
+            .legend(dc.legend().x(850).y(0).itemHeight(15).gap(5));
+            
+            // conditional if else statement to display all fast laps at Mercedes
+        var fast_2 = name_dim.group().reduceSum(function (d) {
+            if (d.Team === 'Mercedes GP Petronas F1 Team' || d.Team === 'Mercedes AMG Petronas F1 Team') {
+                return +d.F_Laps;
+            } else {
+                return 0;
+            }
+        });
+            // conditional if else statement to display total races at Mercedes
+        var wins_2 = name_dim.group().reduceSum(function (d) {
+            if (d.Team === 'Mercedes GP Petronas F1 Team' || d.Team === 'Mercedes AMG Petronas F1 Team') {
+                return +d.Races;
+            } else {
+                return 0;
+            }
+        });
+            // conditional if else statement to display all points scored at Mercedes
+        var poles_2 = name_dim.group().reduceSum(function (d) {
+            if (d.Team === 'Mercedes GP Petronas F1 Team' || d.Team === 'Mercedes AMG Petronas F1 Team') {
+                return +d.Points;
+            } else {
+                return 0;
+            }
+        });
+
+        dc.barChart("#mercedes")
+            .width(950)
+            .height(500)
+            .margins({top: 20, right: 20, bottom: 40, left: 40})
+            .dimension(name_dim)
+            .group(fast_2, "fast laps")
+            .renderHorizontalGridLines(true)
+            .stack(wins_2, "Wins")
+            .stack(poles_2, "pole position")
+            .x(d3.scale.ordinal())
+            .xUnits(dc.units.ordinal)
+            .legend(dc.legend().x(75).y(0).itemHeight(15).gap(5));
+            
+            
+         // Benetton
+        var fast_3 = name_dim.group().reduceSum(function (d) {
+            if (d.Team === 'Camel_Benetton_Ford' || d.Team === 'Mild_Seven_Benetton_Ford' || d.Team === 'Mild Seven Benetton Renault') {
+                return +d.F_Laps;
+            } else {
+                return 0;
+            }
+        });
+        var wins_3 = name_dim.group().reduceSum(function (d) {
+            if (d.Team === 'Camel_Benetton_Ford' || d.Team === 'Mild_Seven_Benetton_Ford' || d.Team === 'Mild Seven Benetton Renault') {
+                return +d.Wins;
+            } else {
+                return 0;
+            }
+        });
+
+        var poles_3 = name_dim.group().reduceSum(function (d) {
+            if (d.Team === 'Camel_Benetton_Ford' || d.Team === 'Mild_Seven_Benetton_Ford' || d.Team === 'Mild Seven Benetton Renault') {
+                return +d.Poles;
+            } else {
+                return 0;
+            }
+        });
+
+        dc.barChart("#benetton")
+            .width(950)
+            .height(500)
+            .margins({top: 20, right: 20, bottom: 40, left: 40})
+            .dimension(name_dim)
+            .group(fast_3, "fast laps")
+            .renderHorizontalGridLines(true)
+            .stack(wins_3, "Wins")
+            .stack(poles_3, "pole position")
+            .x(d3.scale.ordinal())
+            .xUnits(dc.units.ordinal)
+            .legend(dc.legend().x(850).y(0).itemHeight(15).gap(5));
             
             
         var total_records = ndx.dimension(dc.pluck('Record')); //create variable for x axis(Team)
         var record = total_records.group().reduceSum(dc.pluck('Current_Record')); // create variable for group y axis (Podiums)
             
             
-    
-                dc.rowChart("#records")  // draw  barchart in div id points_per_year_bar
-                  .height(600) //set height
-                  .width(1000) // set width                 
-                  .dimension(total_records) // assign var team to dimension
-                  .group(record) // assign variable total_points_per_year to group
-                  .transitionDuration(1500); // set time it takes to draw after each reload 
+                // display all records achieved in row chart
+                dc.rowChart("#records")  
+                  .height(600) 
+                  .width(1000)                 
+                  .dimension(total_records)
+                  .group(record) 
+                  .transitionDuration(1500); 
         
         
         var pts_dim = ndx.dimension(dc.pluck('Season')); //create variable for x axis(Season)
         var total_points_per_year = pts_dim.group().reduceSum(dc.pluck('Points')); // create variable for group y axis (Points)
         
-
-           dc.barChart("#points_per_year_bar") // draw  barchart in div id points_per_year_bar
-            .width(550) // set width
-            .height(300) //set height
-            .margins({top: 20, right: 20, bottom: 40, left: 40}) // set margins
-            .dimension(pts_dim) // assign var pts_dim to dimension
-            .group(total_points_per_year) // assign variable total_points_per_year to group
-            .transitionDuration(500) // set time it takes to draw after each reload
+            // draw  barchart displaying total points scored each season
+           dc.barChart("#points_per_year_bar") 
+            .width(550) 
+            .height(300) 
+            .margins({top: 20, right: 20, bottom: 40, left: 40}) 
+            .dimension(pts_dim) 
+            .group(total_points_per_year) 
+            .renderHorizontalGridLines(true)
+            .transitionDuration(500) 
             .x(d3.scale.ordinal())
             .xUnits(dc.units.ordinal)
-            .xAxisLabel("Season") // assign label to xAxis
-            .yAxisLabel("Total Points") // assign label to yAxis
-            .yAxis().ticks(8); // declare number of ticks used for y axis
+            .xAxisLabel("Season") 
+            .yAxisLabel("Total Points") 
+            .yAxis().ticks(8); 
             
             
-        var team = ndx.dimension(dc.pluck('Team')); //create variable for x axis(Team)
-        var total_podiums_per_team = team.group().reduceSum(dc.pluck('Podiums')); // create variable for group y axis (Podiums)
+            var team = ndx.dimension(dc.pluck('Team'));
+            var total_podiums_per_team = team.group().reduceSum(dc.pluck('Podiums'));
             
             
     
-                dc.rowChart("#podiums_per_team_row")  // draw  barchart in div id points_per_year_bar
-                  .height(300) //set height
-                  .width(550) // set width                 
-                  .dimension(team) // assign var team to dimension
-                  .group(total_podiums_per_team) // assign variable total_points_per_year to group
-                  .transitionDuration(1500); // set time it takes to draw after each reload 
-                  
-        
+                dc.rowChart("#podiums_per_team_row")
+                  .height(400) 
+                  .width(500)                  
+                  .dimension(team)
+                  .group(total_podiums_per_team)
+                  .transitionDuration(1500);
                   
                   
        
@@ -100,17 +178,15 @@ queue()
         
 
             dc.pieChart("#total_poles_per_team") // draw   piechart in div id points_per_year_bar
-              .height(300) //set height
-              .width(550) // set width  
-              .slicesCap(7)   // number of slices in pie
-              .radius(100)  // radius of pie
-              .innerRadius(50)   // inner radius of pie          
-              .dimension(team) // assign var pts_dim to dimension
+              .height(300) 
+              .width(550) 
+              .slicesCap(7)  
+              .radius(100)  
+              .innerRadius(50)  
+              .dimension(team) 
               .group(total_poles_per_team)
-              .transitionDuration(1500) // set time it takes to draw after each reload   
-              .legend(dc.legend().x(5).y(90).itemHeight(10).gap(5));  // display legends
-              
-              
+              .transitionDuration(1500) 
+              .legend(dc.legend().x(5).y(90).itemHeight(10).gap(5));  
         
        
             

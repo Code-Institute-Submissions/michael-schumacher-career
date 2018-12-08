@@ -22,9 +22,7 @@
     	"F_Laps": 5,
     	"Podiums": 9,
         "Points": 52,
-        "Position": "4th"
-    	
-    },
+        "Position": "4th"},
         {
           "Season": 1994,
           "Team": "Mild_Seven_Benetton_Ford",
@@ -200,99 +198,8 @@
           "Podiums": 1,
           "Points": 49,
           "Position": "13th"
-        },
-    
+        }
         
-            {
-                "Record": "Most Championship titles",
-                "Current_Record": 7
-            },
-            {
-                "Record": "Most consecutive titles",
-                "Current_Record": 5
-            },
-            {
-                "Record": "Most races left in the season when becoming World Champion",
-                "Current_Record": 6
-            },
-            {
-                "Record": "Most career wins",
-                "Current_Record": 91
-            },
-            {
-                "Record": "Most wins in a season",
-                "Current_Record": 13
-            },
-            {
-                "Record": "Most wins with the same team",
-                "Current_Record": 72
-            },
-            {
-                "Record": "Most pole positions at the same Grand Prix",
-                "Current_Record": 8
-            },
-            {
-                "Record": "Most wins at the same Grand Prix",
-                "Current_Record": 8
-            },
-            {
-                "Record": "Most seasons with a win",
-                "Current_Record": 15
-            },
-            {
-                "Record": "Most consecutive seasons with a win",
-                "Current_Record": 15
-            },
-            {
-                "Record": "Most second places",
-                "Current_Record": 43
-            },
-            {
-                "Record": "Most consecutive top two finishes",
-                "Current_Record": 15
-            },
-            {
-                "Record": "Most podium finishes",
-                "Current_Record": 155
-            },
-            {
-                "Record": "Most podium finishes in a season",
-                "Current_Record": 17
-            },
-            {
-                "Record": "Most consecutive podium finishes",
-                "Current_Record": 19
-            },
-            {
-                "Record": "Most races finished in the points",
-                "Current_Record": 221
-            },
-            {
-                "Record": "Most races led",
-                "Current_Record": 142
-            },
-            {
-                "Record": "Most fastest laps",
-                "Current_Record": 77
-            },
-            {
-                "Record": "Most fastest laps in a season",
-                "Current_Record": 10
-            },
-            {
-                "Record": "Most hat-tricks (pole, win and fastest lap)",
-                "Current_Record": 22
-            },
-            {
-                "Record": "Most hat-tricks in a season",
-                "Current_Record": 5
-            },
-            {
-                "Record": "Most races with a single constructor",
-                "Current_Record": 181
-            }
         
-    
-      
 ]
 

@@ -1,4 +1,145 @@
+/* seperate charts */
 .chart-divider
 {
     margin-left: 10px;
+}
+
+
+
+
+
+
+/* Italian colours for ferrari team */
+#ferrari g.stack._0  > rect.bar {
+  fill: #009246;
+  stroke: black;
+}
+
+#ferrari g.stack._1  > rect.bar {
+  fill:  #ffffff;
+  stroke: black;
+}
+
+#ferrari g.stack._2  > rect.bar {
+  fill: #ce2b37;
+  stroke: black;
+}
+
+/* Italian colours for ferrari team */
+#ferrari g.dc-legend-item:nth-child(1) > rect:nth-child(1) {
+
+  stroke: black;
+  
+  fill: #009246;
+  
+  }
+  
+  #ferrari g.dc-legend-item:nth-child(2) > rect:nth-child(1) {
+  
+  stroke: black;
+  
+  fill:  #ffffff;
+  
+  }
+  
+  #ferrari g.dc-legend-item:nth-child(3) > rect:nth-child(1) {
+  
+  stroke: black;
+  
+  fill: #ce2b37;
+  
+  }
+  
+  
+  /* german colours for mercedes team */
+#mercedes g.stack._0  > rect.bar {
+  fill: #000000;
+  stroke: black;
+}
+
+#mercedes g.stack._1  > rect.bar {
+  fill:  #FF0000;
+  stroke: black;
+}
+
+#mercedes g.stack._2  > rect.bar {
+  fill: #FFCC00;
+  stroke: black;
+}
+
+#mercedes g.dc-legend-item:nth-child(1) > rect:nth-child(1) {
+
+  stroke: black;
+  
+  fill: #000000;
+  
+  }
+  
+  #mercedes g.dc-legend-item:nth-child(2) > rect:nth-child(1) {
+  
+  stroke: black;
+  
+  fill:  #FF0000;
+  
+  }
+  
+  #mercedes g.dc-legend-item:nth-child(3) > rect:nth-child(1) {
+  
+  stroke: black;
+  
+  fill: #FFCC00;
+  
+  }
+  /* english flag colours for benetton team */
+#benetton g.stack._0  > rect.bar {
+  fill: #00247d;
+  stroke: black;
+}
+
+#benetton g.stack._1  > rect.bar {
+  fill:  #ffffff;
+  stroke: black;
+}
+
+#benetton g.stack._2  > rect.bar {
+  fill: #cf142b;
+  stroke: black;
+}
+
+#benetton g.dc-legend-item:nth-child(1) > rect:nth-child(1) {
+
+ 
+  
+  fill: #00247d;
+  stroke: black;
+  
+  }
+  
+  #benetton g.dc-legend-item:nth-child(2) > rect:nth-child(1) {
+  
+  
+  
+  fill:  #ffffff;
+  stroke: black;
+  
+  }
+  
+  #benetton g.dc-legend-item:nth-child(3) > rect:nth-child(1) {
+  
+  
+  
+  fill: #cf142b;
+  stroke: black;
+  
+  }
+  
+  /* center charts */
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title-align{
+  margin-top: -30px;
 }
