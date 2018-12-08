@@ -110,7 +110,7 @@ Site works well across the following browsers:
 
 Chrome
 
-![Alt chrome_dashboard](images/chrome.jpg)
+![Alt chrome_dashboard](images/chrome.png)
 
 
 
