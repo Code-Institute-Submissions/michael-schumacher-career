@@ -110,15 +110,21 @@ Site works well across the following browsers:
 
 Chrome
 
-![Alt chrome_dashboard](images/chrome.jpg)
+![Alt chrome_dashboard](images/chrome.png "Dashboard")
 
 
 
 Firefox
 
+![Alt chrome_dashboard](images/firefox.png "Dashboard")
+
 Opera
 
+![Alt chrome_dashboard](images/opera.png "Dashboard")
+
 Explorer
+
+![Alt chrome_dashboard](images/explorer.png "Dashboard")
 
 ### Mobile compatibility
 
