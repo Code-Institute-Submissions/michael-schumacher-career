@@ -110,7 +110,11 @@ Site works well across the following browsers:
 
 Chrome
 
+<<<<<<< HEAD
 ![Alt chrome_dashboard](images/chrome.png "Dashboard")
+=======
+![Alt chrome_dashboard](images/chrome.png)
+>>>>>>> cc5eea4bfbb7d594869e952d830c2576ca4dd9bb
 
 
 
@@ -175,6 +179,8 @@ https://en.wikipedia.org/wiki/Michael_Schumacher#Career_summary
 
 ### Media
 
+- I used the following images for this project
+- Note: Links below will only work if copy and pasted directly into address bar
 
 -[Mercedes F1 car 2012](https://www.google.ie/search?hl=en-IE&authuser=0&biw=1920&bih=889&tbm=isch&sa=1&ei=-MkLXOvVGZmR1fAPw7azwAI&q=michael+schumacher+mercedes&oq=michael+schumacher+mercedes&gs_l=img.3..0l3j0i30l3j0i24l4.641033.642759..643064...0.0..0.69.478.8......0....1..gws-wiz-img.MEzE0f1WJso#imgrc=5v9GpAUMP06bGM:)
 
