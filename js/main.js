@@ -36,7 +36,7 @@ queue()
                 return 0;
             }
         });
-
+            // draw barchart for ferrari statistics(fast laps, wins, podiums)
         dc.barChart("#ferrari")
             .width(950)
             .height(500)
@@ -59,7 +59,7 @@ queue()
             }
         });
             // conditional if else statement to display total races at Mercedes
-        var wins_2 = name_dim.group().reduceSum(function (d) {
+        var completed_races = name_dim.group().reduceSum(function (d) {
             if (d.Team === 'Mercedes GP Petronas F1 Team' || d.Team === 'Mercedes AMG Petronas F1 Team') {
                 return +d.Races;
             } else {
@@ -74,7 +74,7 @@ queue()
                 return 0;
             }
         });
-
+            // draw barchart for Mercedes statistics(fast laps, wins, Pole positions)
         dc.barChart("#mercedes")
             .width(950)
             .height(500)
@@ -82,7 +82,7 @@ queue()
             .dimension(name_dim)
             .group(fast_2, "fast laps")
             .renderHorizontalGridLines(true)
-            .stack(wins_2, "Wins")
+            .stack(completed_races, "Races")
             .stack(poles_2, "pole position")
             .x(d3.scale.ordinal())
             .xUnits(dc.units.ordinal)
@@ -112,7 +112,7 @@ queue()
                 return 0;
             }
         });
-
+        // draw barchart for ferrari statistics(fast laps, wins, Pole positions)
         dc.barChart("#benetton")
             .width(950)
             .height(500)

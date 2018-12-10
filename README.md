@@ -1,7 +1,7 @@
     
 ##   Michael Schumacher F1 career history Dashboard
 
-The purpose of this project is to give the user a visual over view of Michael Schumacher’s achievements during his time as a Formula 1 driver
+The purpose of this project is to give the user a visual overview of Michael Schumacher’s achievements during his time as a Formula 1 driver
  
 ## UX
  
@@ -17,25 +17,39 @@ This section is also where you would share links to any wireframes, mockups, dia
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Feature 1 - From the home page(index.html) the user has the option of selecting from the dropdown Menu which is a list of Teams that Michael Schumacher has raced for.
+
+![Alt dropdown](images/select/team.png "Dashboard")
+
+- Feature 2 - A user Can hover over any section(season) of the barchart(Total points per season) and information detailing the year and total points for that year will be displayed on screen
+
+![Alt hover](images/select/hover.png "Dashboard")
+
+- Feature 3 - The 3 graphs on the Homepage are interlinked so the user can Filter information by click the left mouse button on a chosen segment of one of the graphs.
+
+As an example I have deselected all of the years that he drove for ferrari from the barchart and the 2 charts on the far right are now only displaying the information relating to the remaining teams.
+
+![Alt select_deselect](images/select/select_deselect.png "Dashboard")
+
+- Feature 4 - On all of the Team pages The user is able to display only the information that they want to see. This chart is a stacked chart and by hover over the legend of a particular statistic.
+
+If a user hovers over the pole position legend then only this information will be displayed and the rest will be ghosted out.
+
+![Alt stacked_selection](images/select/stacked_selection.png "Dashboard")
+
+- Feature 5 - allows users X to achieve Y, by having them fill out Z
+
+- Feature 6 - allows users X to achieve Y, by having them fill out Z
+
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
 - A link to download graphs in PDF format
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-
-
-
-
 
 - [D3( data driven document)](https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js)
 		
@@ -51,7 +65,6 @@ Crossfilter is a javascript library which it makes it possible to interact with 
 
 DC is a charting library built on top of D3
 
-
 - [QUEUE](https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js) 
 	 
 
@@ -65,25 +78,16 @@ Bootstrap framework I used for setting the look and feel of the project
 
 - [JQuery](https://code.jquery.com/jquery-3.3.1.slim.min.js)   
 
-
-- [popper.min.js](https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js)
-
+Used to make the dropdown menu functional
 
 - [bootstrap.min.js](https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js)
 
-	Bootstrap  javascript libraries for interacting with elements  within  the DOM. For this project it hides the nav menu items when in mobile format
-
-
-
-- [jspdf.min.js](https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js)
-
-
-jspdf is used to convert onscreen data to pdf format to download a local copy
+Bootstrap  javascript libraries for interacting with elements  within  the DOM. For this project it hides the nav menu items when in mobile format
 
 
 - [csv to json converter](https://www.csvjson.com/csv2json)
 
-	After saving the table data in excel into csv format, I then used the following website to convert it to json as it is much easier to read and modify
+After saving the table data in excel into csv format, I then used the following website to convert it to json as it is much easier to read and modify
 
 
 
@@ -110,52 +114,31 @@ Site works well across the following browsers:
 
 Chrome
 
-<<<<<<< HEAD
 ![Alt chrome_dashboard](images/chrome.png "Dashboard")
-=======
-![Alt chrome_dashboard](images/chrome.png)
->>>>>>> cc5eea4bfbb7d594869e952d830c2576ca4dd9bb
-
-
 
 Firefox
 
-![Alt chrome_dashboard](images/firefox.png "Dashboard")
+![Alt firefox_dashboard](images/firefox.png "Dashboard")
 
 Opera
 
-![Alt chrome_dashboard](images/opera.png "Dashboard")
+![Alt opera_dashboard](images/opera.png "Dashboard")
 
 Explorer
 
-![Alt chrome_dashboard](images/explorer.png "Dashboard")
+![Alt explorer_dashboard](images/explorer.png "Dashboard")
 
 ### Mobile compatibility
 
-Although a Dashboard is not suitable for mobile devices it does display on Tablets but is no suitable for mobile phone format due to the functionality of the dashboard (the charts are linked with data and need to be seen on the screen at the same time)
-
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Due to the nature of this project it is only really functional from the perspective of a desktop computer and is not suitable for mobile devices.
 
 ## Deployment
 
-For deployment of this project I used GITHUB as a hosting platform. This process was done over several commits which are detailed as follows
+For deployment of this project I used GITHUB as a hosting platform. This process was done over several commits.
 
-1) Initial commit
-index.html
-
-Set up an index page and include all style links and scripts that are used during this project 
-
-main.js
-
-collect data from ms.json and display barchart based on number of points scored per Season.
+As I went through this process of submitting commits, the Initial commit may be visually different to the final version but the behaviour of the graphs and the data that is displayed to the user stayed the same.
 
 
-ms.json
-
-This file includes all the data used to display the various charts that are seen on the dashboard
  
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).

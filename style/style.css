@@ -9,7 +9,7 @@
 
 
 
-/* Italian colours for ferrari team */
+/* Italian  Flag colours for ferrari team */
 #ferrari g.stack._0  > rect.bar {
   fill: #009246;
   stroke: black;
@@ -25,7 +25,7 @@
   stroke: black;
 }
 
-/* Italian colours for ferrari team */
+/* Italian Flag colours for ferrari team */
 #ferrari g.dc-legend-item:nth-child(1) > rect:nth-child(1) {
 
   stroke: black;
@@ -51,7 +51,7 @@
   }
   
   
-  /* german colours for mercedes team */
+  /* german Flag colours for mercedes team */
 #mercedes g.stack._0  > rect.bar {
   fill: #000000;
   stroke: black;
@@ -66,7 +66,7 @@
   fill: #FFCC00;
   stroke: black;
 }
-
+ /* german Flag colours for mercedes team */
 #mercedes g.dc-legend-item:nth-child(1) > rect:nth-child(1) {
 
   stroke: black;
@@ -90,7 +90,7 @@
   fill: #FFCC00;
   
   }
-  /* english flag colours for benetton team */
+  /* French flag colours for benetton team */
 #benetton g.stack._0  > rect.bar {
   fill: #00247d;
   stroke: black;
@@ -106,6 +106,7 @@
   stroke: black;
 }
 
+ /* French flag colours for benetton team */
 #benetton g.dc-legend-item:nth-child(1) > rect:nth-child(1) {
 
  
