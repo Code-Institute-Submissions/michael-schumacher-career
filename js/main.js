@@ -13,7 +13,7 @@ queue()
             // conditional if else statement to display all fast laps at ferrari
         var name_dim = ndx.dimension(dc.pluck('Season'));
         var fast = name_dim.group().reduceSum(function (d) {
-            if (d.Team === 'Scuderia Ferrari Marlboro') {
+            if (d.Team === 'Scuderia Ferrari Marlboro' || d.Team === 'Scuderia Ferrari S.p.A.') {
                 return +d.F_Laps;
             } else {
                 return 0;
@@ -21,7 +21,7 @@ queue()
         });
             // conditional if else statement to display all wins at ferrari
         var wins = name_dim.group().reduceSum(function (d) {
-            if (d.Team === 'Scuderia Ferrari Marlboro') {
+            if (d.Team === 'Scuderia Ferrari Marlboro' || d.Team === 'Scuderia Ferrari S.p.A.') {
                 return +d.Wins;
             } else {
                 return 0;
@@ -30,7 +30,7 @@ queue()
 
             // conditional if else statement to display all pole positions at ferrari
         var poles = name_dim.group().reduceSum(function (d) {
-            if (d.Team === 'Scuderia Ferrari Marlboro') {
+            if (d.Team === 'Scuderia Ferrari Marlboro' || d.Team === 'Scuderia Ferrari S.p.A.') {
                 return +d.Poles;
             } else {
                 return 0;
