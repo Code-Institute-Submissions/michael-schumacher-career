@@ -155,7 +155,7 @@ push changes to repository
 
 I am then requested to provide a username and password to submit changes.
 
-Subsequent commits follow the same path only that there is no need to create another remote for origin. All that is required is to type the command
+Subsequent commits follow the same steps only that there is no need to create another remote for origin. All that is required is to type the command
 
 ### git push
 
