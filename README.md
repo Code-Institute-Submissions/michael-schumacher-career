@@ -154,13 +154,19 @@ For deployment of this project I used GITHUB as a hosting platform. This process
 As I went through this process of submitting commits, the Initial commit may be visually different to the final version but the behaviour of the graphs and the data that is displayed to the user stayed the same.
 
 for the Initial commit I took the following steps:
-1) Opened a Bash terminal and typed the following commands command 
-### git init
+Opened a Bash terminal and typed the following commands command 
+### git init 
+Initialize git environment
 ### git status
+List all files that have not been commited or have been modified
 ### git add *
+Adds all files
 ### git commit -m "initial commit"
+Adds a comment to the commit
 ### git remote add origin https://github.com/rayme1975/michael-schumacher-career.git
+Creates link for github repository
 ### git push origin master
+push changes to repository
 
 I am then requested to provide a username and password to submit changes.
 
