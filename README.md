@@ -52,14 +52,6 @@ If a user hovers over the pole position legend then only this information will b
 
 ![Alt stacked_selection](images/stacked_selection.png "Dashboard")
 
-- Feature 5 - allows users X to achieve Y, by having them fill out Z
-
-- Feature 6 - allows users X to achieve Y, by having them fill out Z
-
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-
 ### Features Left to Implement
 
 - A link to download graphs in PDF format
@@ -103,11 +95,6 @@ Bootstrap  javascript libraries for interacting with elements  within  the DOM. 
 - [csv to json converter](https://www.csvjson.com/csv2json)
 
 After saving the table data in excel into csv format, I then used the following website to convert it to json as it is much easier to read and modify
-
-
-
-	
-
 
 ## Testing
 
@@ -175,9 +162,6 @@ Subsequent commits follow the same path only that there is no need to create ano
 ### git push
 
 You will still be required to login
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
 
 ## Credits
 
