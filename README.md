@@ -30,23 +30,23 @@ In this section, you should go over the different parts of your project, and des
 ### Existing Features
 - Feature 1 - From the home page(index.html) the user has the option of selecting from the dropdown Menu which is a list of Teams that Michael Schumacher has raced for.
 
-![Alt dropdown](images/select/team.png "Dashboard")
+![Alt dropdown](images/select_team.png "Dashboard")
 
 - Feature 2 - A user Can hover over any section(season) of the barchart(Total points per season) and information detailing the year and total points for that year will be displayed on screen
 
-![Alt hover](images/select/hover.png "Dashboard")
+![Alt hover](images/hover.png "Dashboard")
 
 - Feature 3 - The 3 graphs on the Homepage are interlinked so the user can Filter information by click the left mouse button on a chosen segment of one of the graphs.
 
 As an example I have deselected all of the years that he drove for ferrari from the barchart and the 2 charts on the far right are now only displaying the information relating to the remaining teams.
 
-![Alt select_deselect](images/select/select_deselect.png "Dashboard")
+![Alt select_deselect](images/select_deselect.png "Dashboard")
 
 - Feature 4 - On all of the Team pages The user is able to display only the information that they want to see. This chart is a stacked chart and by hover over the legend of a particular statistic.
 
 If a user hovers over the pole position legend then only this information will be displayed and the rest will be ghosted out.
 
-![Alt stacked_selection](images/select/stacked_selection.png "Dashboard")
+![Alt stacked_selection](images/stacked_selection.png "Dashboard")
 
 - Feature 5 - allows users X to achieve Y, by having them fill out Z
 
@@ -125,13 +125,7 @@ Site works well across the following browsers:
 
 Chrome
 
-<<<<<<< HEAD
 ![Alt chrome_dashboard](images/chrome.png "Dashboard")
-=======
-
-![Alt chrome_dashboard](images/chrome.png "Dashboard")
-
->>>>>>> adef6081664e3dbb500b8458b905455a984d1606
 
 Firefox
 
@@ -180,7 +174,6 @@ https://en.wikipedia.org/wiki/Michael_Schumacher#Career_summary
 ### Media
 
 - I used the following images for this project
-- Note: Links below will only work if copy and pasted directly into address bar
 
 -[Mercedes F1 car 2012](https://www.google.ie/search?hl=en-IE&authuser=0&biw=1920&bih=889&tbm=isch&sa=1&ei=-MkLXOvVGZmR1fAPw7azwAI&q=michael+schumacher+mercedes&oq=michael+schumacher+mercedes&gs_l=img.3..0l3j0i30l3j0i24l4.641033.642759..643064...0.0..0.69.478.8......0....1..gws-wiz-img.MEzE0f1WJso#imgrc=5v9GpAUMP06bGM:)
 
