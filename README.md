@@ -159,19 +159,16 @@ for the Initial commit I took the following steps:
 ### git status
 ### git add *
 ### git commit -m "initial commit"
-### git remote add origin youruser@yourserver.com:/path/to/my_project.git
+### git remote add origin https://github.com/rayme1975/michael-schumacher-career.git
+### git push origin master
 
- 
+I am then requested to provide a username and password to submit changes.
 
+Subsequent commits follow the same path only that there is no need to create another remote for origin. All that is required is to type the command
 
- 
+### git push
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+You will still be required to login
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
