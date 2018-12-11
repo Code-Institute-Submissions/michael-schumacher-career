@@ -153,6 +153,16 @@ For deployment of this project I used GITHUB as a hosting platform. This process
 
 As I went through this process of submitting commits, the Initial commit may be visually different to the final version but the behaviour of the graphs and the data that is displayed to the user stayed the same.
 
+for the Initial commit I took the following steps:
+1) Opened a Bash terminal and typed the following commands command 
+### git init
+### git status
+### git add *
+### git commit -m "initial commit"
+### git remote add origin youruser@yourserver.com:/path/to/my_project.git
+
+ 
+
 
  
 
