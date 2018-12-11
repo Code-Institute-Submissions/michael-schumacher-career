@@ -23,7 +23,7 @@ In this section, you should go over the different parts of your project, and des
 
 - Feature 2 - A user Can hover over any section(season) of the barchart(Total points per season) and information detailing the year and total points for that year will be displayed on screen
 
-![Alt hover](images/select_hover.png "Dashboard")
+![Alt hover](images/hover.png "Dashboard")
 
 - Feature 3 - The 3 graphs on the Homepage are interlinked so the user can Filter information by click the left mouse button on a chosen segment of one of the graphs.
 
