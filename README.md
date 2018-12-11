@@ -114,13 +114,7 @@ Site works well across the following browsers:
 
 Chrome
 
-<<<<<<< HEAD
 ![Alt chrome_dashboard](images/chrome.png "Dashboard")
-=======
-
-![Alt chrome_dashboard](images/chrome.png "Dashboard")
-
->>>>>>> adef6081664e3dbb500b8458b905455a984d1606
 
 Firefox
 
