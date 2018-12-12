@@ -9,15 +9,15 @@ This website will appeal towards anyone who may have an interest in F1 racing in
 
 The following is the Data that I chose to display on the dashboard
 
-Season: Racing season year 
-Team: current team
-Races: number of races completed
-Wins: number of wins
-Poles: number of pole positions
-F_Laps: number of fastest laps
-Podiums: number of podiums achieved
-Points: total number of points
-Position: finishing position for season
+- Season: Racing season year 
+- Team: current team
+- Races: number of races completed
+- Wins: number of wins
+- Poles: number of pole positions
+- F_Laps: number of fastest laps
+- Podiums: number of podiums achieved
+- Points: total number of points
+- Position: finishing position for season
 
 
 - As a user type, I want to perform an action, so that I can achieve a goal.
