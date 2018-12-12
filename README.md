@@ -7,6 +7,18 @@ The purpose of this project is to give the user a visual overview of Michael Sch
  
 This website will appeal towards anyone who may have an interest in F1 racing in particular Michael Schumachers career history. I believe that the way I have displayed the records is far more informative than that of a basic table which can be mundane and boring. Also the fact that the information is interactive based on the user actions add more depth to this project.
 
+The following is the Data that I chose to display on the dashboard
+
+Season: Racing season year 
+Team: current team
+Races: number of races completed
+Wins: number of wins
+Poles: number of pole positions
+F_Laps: number of fastest laps
+Podiums: number of podiums achieved
+Points: total number of points
+Position: finishing position for season
+
 
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
@@ -102,23 +114,13 @@ Bootstrap  javascript libraries for interacting with elements  within  the DOM. 
 
 - [csv to json converter](https://www.csvjson.com/csv2json)
 
-After saving the table data in excel into csv format, I then used the following website to convert it to json as it is much easier to read and modify
+After saving the table data in excel into csv format, I then used the www.csvjson.com website to convert it to json as it is much easier to read and modify
 
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful 
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 Site works well across the following browsers:
 
