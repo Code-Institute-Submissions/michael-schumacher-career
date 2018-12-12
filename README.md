@@ -5,16 +5,18 @@ The purpose of this project is to give the user a visual overview of Michael Sch
  
 ## UX
  
-This website will appeal towards anyone who may have an interest in F1 racing in particular Michael Schumachers career history. I believe that the way I have displayed the records is far more informative than that of a basic table which can be mundane and boring. Also teh fact that the information is interactive based on the user actions add more depth to this project.
+This website will appeal towards anyone who may have an interest in F1 racing in particular Michael Schumachers career history. I believe that the way I have displayed the records is far more informative than that of a basic table which can be mundane and boring. Also the fact that the information is interactive based on the user actions add more depth to this project.
 
 
-
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- As a user type, I want to perform an action, so that I can achieve a goal.
+
+- As a user type, I want to perform an action, so that I can achieve a goal.
+
+- As a user type, I want to perform an action, so that I can achieve a goal.
+
+
 
 Below are some sketches that I did to get an Idea of what information I was going to display and how it would be displayed
 
