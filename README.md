@@ -21,22 +21,14 @@ The following is the Data that I chose to display on the dashboard
 
 Although there was a vast number of graphs to choose from in order to display this information, I decided to keep it simple and use graphs that people would be familiar with so as not to cause confusion or misinterpret information
 
-
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-
+So I picked The Bargraph, Piechart, Rowchart(a variation of a barchart) and stacked chart(another variation of barchart)
 
 Below are some sketches that I did to get an Idea of what information I was going to display and how it would be displayed
 
-- Please note sketches are only 
 ### Barchart displaying the total number of points scored per season
 ![Alt barchart](images/barchart.jpg "barchart")
+
+The above chart was ideal way  to display all of the Seasons compared to a piechart 
 
 ### Rowchart displaying the total number of podiums per team
 ![Alt row](images/row.jpg "row")
