@@ -19,6 +19,8 @@ The following is the Data that I chose to display on the dashboard
 - Points: total number of points
 - Position: finishing position for season
 
+Although there was a vast number of graphs to choose from in order to display this information, I decided to keep it simple and use graphs that people would be familiar with so as not to cause confusion or misinterpret information
+
 
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
