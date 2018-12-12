@@ -13,13 +13,15 @@ In particular, as part of this section we recommend that you provide a list of U
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 Below are some sketches that I did to get an Idea of what information I was going to display and how it would be displayed
+
+- Please note sketches are only 
 ### Barchart displaying the total number of points scored per season
 ![Alt barchart](images/barchart.jpg "barchart")
 
 ### Rowchart displaying the total number of podiums per team
 ![Alt row](images/row.jpg "row")
 
-### piechart displaying the total number of podiums per team
+### piechart displaying the total number of Pole Positions per team
 ![Alt pie](images/pie.jpg "pie")
 
 ### Displaying all 3 charts on the home screen
