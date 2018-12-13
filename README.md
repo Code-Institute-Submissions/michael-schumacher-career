@@ -41,8 +41,12 @@ Pie charts are a way of displaying the results of one measurement as a whole, in
 ### Displaying all 3 charts on the home screen
 ![Alt home](images/home.jpg "home")
 
+Original sketch of how I envisioned how the home page would look
+
 ### for each team I designed a Stackedchart that would display multiple records for that team
 ![Alt stacked](images/stacked.jpg "stacked")
+
+
 
 
 ## Features
