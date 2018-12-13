@@ -28,13 +28,15 @@ Below are some sketches that I did to get an Idea of what information I was goin
 ### Barchart displaying the total number of points scored per season
 ![Alt barchart](images/barchart.jpg "barchart")
 
-The above chart was ideal way  to display all of the Seasons compared to a piechart 
+The above Barchart was an ideal way  to display all of the Seasons and clearly shows the trend of points scored over time 
 
 ### Rowchart displaying the total number of podiums per team
 ![Alt row](images/row.jpg "row")
 
 ### piechart displaying the total number of Pole Positions per team
 ![Alt pie](images/pie.jpg "pie")
+
+Pie charts are a way of displaying the results of one measurement as a whole, in this case I am displaying the spread of Pole positions achieved at each team
 
 ### Displaying all 3 charts on the home screen
 ![Alt home](images/home.jpg "home")
