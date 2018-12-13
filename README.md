@@ -21,7 +21,7 @@ The following is the Data that I chose to display on the dashboard
 
 Although there was a vast number of graphs to choose from in order to display this information, I decided to keep it simple and use graphs that people would be familiar with so as not to cause confusion or misinterpret information
 
-So I picked The Bargraph, Piechart, Rowchart(a variation of a barchart) and stacked chart(another variation of barchart)
+So I picked The Barchart, Piechart, Rowchart(a variation of a barchart) and stacked chart(another variation of barchart)
 
 Below are some sketches that I did to get an Idea of what information I was going to display and how it would be displayed
 
