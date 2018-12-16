@@ -120,9 +120,18 @@ After saving the table data in excel into csv format, I then used the www.csvjso
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+For the testing of this project I did the following tests:
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful 
+- Checked that all links on the Nav bar were working both ways
+	- Home -> Benetton
+	- Benetton -> Home
+- I repeated these checks for the 2 remaining teams
+
+- On the Home page I extensively checked the relation ship between the 3 graphs and checked this against the data that is stored in the json file.
+
+- For the stacked barcharts I made sure that the relevant record was highlighted when you hover the Legend that it is associated with:
+
+
 
 Site works well across the following browsers:
 
