@@ -46,6 +46,8 @@ Original sketch of how I envisioned how the home page would look
 ### for each team I designed a Stackedchart that would display multiple records for that team
 ![Alt stacked](images/stacked.jpg "stacked")
 
+This is a sketch of a stacked barchart that i used to display multiple records for each team
+
 
 
 
