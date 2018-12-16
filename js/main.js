@@ -127,19 +127,6 @@ queue()
             .legend(dc.legend().x(850).y(0).itemHeight(15).gap(5));
             
             
-        var total_records = ndx.dimension(dc.pluck('Record')); //create variable for x axis(Team)
-        var record = total_records.group().reduceSum(dc.pluck('Current_Record')); // create variable for group y axis (Podiums)
-            
-            
-                // display all records achieved in row chart
-                dc.rowChart("#records")  
-                  .height(600) 
-                  .width(1000)                 
-                  .dimension(total_records)
-                  .group(record) 
-                  .transitionDuration(1500); 
-        
-        
         var pts_dim = ndx.dimension(dc.pluck('Season')); //create variable for x axis(Season)
         var total_points_per_year = pts_dim.group().reduceSum(dc.pluck('Points')); // create variable for group y axis (Points)
         
@@ -163,7 +150,8 @@ queue()
             var total_podiums_per_team = team.group().reduceSum(dc.pluck('Podiums'));
             
             
-    
+            
+            
                 dc.rowChart("#podiums_per_team_row")
                   .height(400) 
                   .width(500)                  
@@ -180,7 +168,7 @@ queue()
             dc.pieChart("#total_poles_per_team") // draw   piechart in div id points_per_year_bar
               .height(300) 
               .width(550) 
-              .slicesCap(7)  
+              .slicesCap(6)  
               .radius(100)  
               .innerRadius(50)  
               .dimension(team) 

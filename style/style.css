@@ -25,7 +25,7 @@
   stroke: black;
 }
 
-/* Italian Flag colours for ferrari team */
+/* Italian Flag colours for ferrari team Legend */
 #ferrari g.dc-legend-item:nth-child(1) > rect:nth-child(1) {
 
   stroke: black;
@@ -66,7 +66,7 @@
   fill: #FFCC00;
   stroke: black;
 }
- /* german Flag colours for mercedes team */
+ /* german Flag colours for mercedes team Legend */
 #mercedes g.dc-legend-item:nth-child(1) > rect:nth-child(1) {
 
   stroke: black;
@@ -106,7 +106,7 @@
   stroke: black;
 }
 
- /* French flag colours for benetton team */
+ /* French flag colours for benetton team Legend */
 #benetton g.dc-legend-item:nth-child(1) > rect:nth-child(1) {
 
  
@@ -144,3 +144,4 @@
 .title-align{
   margin-top: -30px;
 }
+
