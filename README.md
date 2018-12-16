@@ -129,11 +129,16 @@ For the testing of this project I did the following tests:
 
 - On the Home page I extensively checked the relation ship between the 3 graphs and checked this against the data that is stored in the json file.
 
+
 - For the stacked barcharts I made sure that the relevant record was highlighted when you hover the Legend that it is associated with:
 
 ![Alt stacked_barchart](images/testing_ferrari.png "testing_stacked")
 
 I made sure that The site was compatible with the most popular browsers, here is a few snapshots of how it displayed on them:
+
+
+- For the stacked barcharts I made sure that the relevant record was highlighted when you hover the Legend that it is associated with:
+
 
 
 Chrome
